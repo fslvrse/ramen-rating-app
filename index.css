@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#ramen-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#ramen-menu img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+#ramen-menu img.selected {
+  border-color: #333;
+}
+
+#ramen-detail {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#ramen-detail h2 {
+  margin-top: 0;
+}
+
+#ramen-detail p {
+  margin: 5px 0;
+}
+
+form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
